@@ -1,5 +1,5 @@
 import pandas as pd
-from utils import log_message
+from utils import log_message 
 
 def analyze_data(df):
     """Analyze data and calculate metrics"""
