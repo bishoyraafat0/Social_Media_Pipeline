@@ -1,0 +1,5 @@
+tweepy==4.14.0
+google-api-python-client==2.112.0
+python-dotenv==1.0.1
+pandas==2.2.2
+requests==2.31.0
