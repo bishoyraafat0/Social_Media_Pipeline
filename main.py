@@ -3,7 +3,7 @@ from transform import transform_data
 from analyze import analyze_data
 import sqlite3
 from utils import log_message
-from fetch import fetch_youtube, fetch_twitter
+from fetch import fetch_youtube, fetch_twitter 
 
 
 def main(keyword="Python", days=7, max_results=20):
