@@ -2,11 +2,10 @@
 
 ## Overview
 This project is a **data engineering pipeline** that fetches, transforms, and analyzes social media data from **YouTube** and **X (Twitter)**. The goal is to compute engagement metrics, identify top posts, and provide insights for daily social media activity.  
-
 - **Keyword tracked:** `Python`  
 - **Data sources:** YouTube API & X (Twitter) API  
-
-The pipeline fetches posts containing the keyword, normalizes the data into a unified schema, calculates engagement metrics, and saves the results into both CSV files and a SQLite database.
+The pipeline fetches posts containing the keyword, normalizes the data into a unified schema, calculates engagement metrics, and saves the results into both CSV files and a SQLite database.  
+> **Note on Twitter Data:** Some engagement metrics from Twitter (likes, comments, etc.) may appear empty. This is due to the **limitations of the free Twitter API**, which does not provide full engagement data. Full metrics require a Paid API tier. The pipeline is fully functional, and missing Twitter data is expected under the free tier.
 
 ---
 
